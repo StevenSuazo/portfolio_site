@@ -2049,6 +2049,12 @@ input, select, textarea {
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
 			margin: 0;
 		}
+		header.major{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
 
 		header.major p {
 			margin: 0.7em 0 0 0;
@@ -2581,6 +2587,9 @@ input, select, textarea {
 /* Major Icons */
 
 	ul.major-icons {
+		justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 		list-style: none;
 		padding-left: 0;
 	}
@@ -3479,6 +3488,10 @@ input, select, textarea {
 							margin-top: 0;
 						}
 
+	}
+
+	.contact{
+		margin: 0px;
 	}
 
 /* XXSmall */
